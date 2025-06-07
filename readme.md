@@ -37,9 +37,13 @@ Generative models have enabled the creation of highly realistic facial-synthetic
 
 ## 📝TODOs
   - [x] Training + Evaluation Code
-  - [ ] Model Weights
-  - [ ] Inference Code
+  - [x] Model Weights
+  - [x] Inference Code
   - [ ] HeyGen Evaluation Dataset
+
+
+## 🙌News
+  - June 08: We have released the [model checkpoint](https://drive.google.com/file/d/1ydD5rnaaF0i2zLE7NidLtAhjonHoVQOk/view?usp=sharing) and provided inference code for single videos! Checkout [this section](#inference---demo-video) for further details!
 
 ## 🚀Installation
 ```shell
@@ -220,6 +224,37 @@ python inference.py \
 ```
 ### Evaluation - Robustness
 We provide tools in `./scripts/tools/` to simplify the robustness evaluation task: `create-robust-config.sh` creates an evaluation config for each perturbation types and `inference-robust.sh` runs through all the datasets with the specified model.
+
+## 😎Inference - Demo Video
+To run inference on a single video with an indicator, please download our model checkpoint and execute the following commands:
+```bash
+# Pre-Processing: fetch facial landmark and bounding box
+python -m src.preprocess.fetch_landmark_bbox \
+--root-dir="./resources" \
+--video-dir="videos" \
+--fdata-dir="frame_data" \
+--glob-exp="*"
+# Pre-Processing: crop out the facial regions
+python -m src.preprocess.crop_main_face \
+--root-dir="./resources" \
+--video-dir="videos" \
+--fdata-dir="frame_data" \
+--crop-dir="cropped" \
+--glob-exp="*"
+# Main Process
+python -m demo \
+"checkpoint/setting.yaml" \ # the model setting of the checkpoint
+"checkpoint/weights.ckpt" \ # the model weights of the checkpoint
+"resources/videos/000.mp4" \ # the video to process
+--out_path="test.avi" \ # the output path of the processed video
+--threshold=0.5 \ # the threshold for the real/fake indicator
+--batch_size=30 # the input batch size of the model (~10G VRAM when batch_size=30 )
+```
+The following is a sample frame from the processed video:
+<p align="center">
+    <img src="assets/demo.png">
+</p>
+
 
 <!-- ## 🔥 Inference -->
 ## 🔗 BibTeX

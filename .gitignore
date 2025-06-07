@@ -13,4 +13,6 @@ lightning_logs/
 .lr_find_*
 RealForensicPreds/
 results/
+checkpoint/
+.vscode/
 *.pt
