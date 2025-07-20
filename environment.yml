@@ -38,6 +38,7 @@ dependencies:
       - cycler==0.12.1
       - docker-pycreds==0.4.0
       - docstring-parser==0.15
+      - face-alignment==1.4.1
       - filelock==3.13.1
       - fonttools==4.49.0
       - frozenlist==1.4.1

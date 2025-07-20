@@ -15,4 +15,6 @@ RealForensicPreds/
 results/
 checkpoint/
 .vscode/
+resources/cropped/
+resources/frame_data/
 *.pt

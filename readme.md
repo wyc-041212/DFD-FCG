@@ -245,7 +245,7 @@ python -m src.preprocess.crop_main_face \
 python -m demo \
 "checkpoint/setting.yaml" \ # the model setting of the checkpoint
 "checkpoint/weights.ckpt" \ # the model weights of the checkpoint
-"resources/videos/000.mp4" \ # the video to process
+"resources/videos/000_003.mp4" \ # the video to process
 --out_path="test.avi" \ # the output path of the processed video
 --threshold=0.5 \ # the threshold for the real/fake indicator
 --batch_size=30 # the input batch size of the model (~10G VRAM when batch_size=30 )
