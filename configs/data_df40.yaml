@@ -1,0 +1,58 @@
+data:
+  class_path: src.dataset.base.ODDeepFakeDataModule
+  init_args:
+    batch_size: 20
+    num_workers: 8
+    clip_duration: 1
+    num_frames: 1
+    train_datamodules:
+      - class_path: src.dataset.image.ImageDataModule
+        init_args:
+          data_dir: /tmp/f2256768/df40
+          vid_ext: ""
+          num_frames: 1
+          clip_duration: 1
+          pack: false
+          max_clips: 1
+          protocol_json_folder: /home/comp/f2256768/DF40/DeepfakeBench_DF40/preprocessing/dataset_json
+          protocol_dataset_name: FSAll_ff
+          protocol_split: train
+          protocol_compression: c23
+          protocol_label_map:
+            FSAll_Real: 0
+            FSAll_Fake: 1
+          protocol_path_rewrites: []
+    val_datamodules:
+      - class_path: src.dataset.image.ImageDataModule
+        init_args:
+          data_dir: /tmp/f2256768/df40
+          vid_ext: ""
+          num_frames: 1
+          clip_duration: 1
+          pack: false
+          max_clips: 1
+          protocol_json_folder: /home/comp/f2256768/DF40/DeepfakeBench_DF40/preprocessing/dataset_json
+          protocol_dataset_name: FSAll_ff
+          protocol_split: test
+          protocol_compression: c23
+          protocol_label_map:
+            FSAll_Real: 0
+            FSAll_Fake: 1
+          protocol_path_rewrites: []
+    test_datamodules:
+      - class_path: src.dataset.image.ImageDataModule
+        init_args:
+          data_dir: /tmp/f2256768/df40
+          vid_ext: ""
+          num_frames: 1
+          clip_duration: 1
+          pack: false
+          max_clips: 1
+          protocol_json_folder: /home/comp/f2256768/DF40/DeepfakeBench_DF40/preprocessing/dataset_json
+          protocol_dataset_name: FSAll_ff
+          protocol_split: test
+          protocol_compression: c23
+          protocol_label_map:
+            FSAll_Real: 0
+            FSAll_Fake: 1
+          protocol_path_rewrites: []

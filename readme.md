@@ -125,6 +125,84 @@ datasets
     .   .
 ```
 
+### Image-only dataset (PNG/JPG)
+If you want to train the model as an image-level detector, you can organize images as a single-frame clip with `num_frames=1` and the following structure:
+```shell
+datasets_image
+├── train
+│   ├── REAL
+│   │   └── *.png
+│   └── FAKE
+│       └── *.png
+├── val
+│   ├── REAL
+│   │   └── *.png
+│   └── FAKE
+│       └── *.png
+└── test
+  ├── REAL
+  │   └── *.png
+  └── FAKE
+    └── *.png
+```
+Use the image dataset wrapper in `src/dataset/image.py`, which returns clips shaped like `(num_clips, num_frames, C, H, W)` with `num_frames=1`.
+
+Quick sanity check script:
+```bash
+python scripts/tools/image_dataset_check.py --data-dir datasets_image --split train
+```
+
+If your dataset structure does not follow `train/val/test/REAL/FAKE`, you can pass explicit real/fake roots (supports recursive scanning). Example for DF40-style structure:
+```bash
+python scripts/tools/image_dataset_check.py \
+  --data-dir /Users/wuyuchen/deepfake_video_detection/DF40 \
+  --split train \
+  --fake-dir blendface \
+  --fake-dir faceswap \
+  --real-dir Celeb-DF-v2/Celeb-real \
+  --real-dir Celeb-DF-v2/YouTube-real \
+  --real-dir FaceForensics++/original_sequences/youtube/c23
+```
+
+If you already have protocol JSON files (train/eval protocols), you can load images directly from JSON:
+```bash
+python scripts/tools/image_dataset_check.py \
+  --data-dir /Users/wuyuchen/deepfake_video_detection/DF40 \
+  --protocol-json /path/to/protocol.json \
+  --protocol-split train \
+  --protocol-root /Users/wuyuchen/deepfake_video_detection \
+  --protocol-real-label FSAll_Real
+```
+The JSON parser searches for entries with `label` + `frames`, and maps labels containing `real` (case-insensitive) to `REAL`. Use `--protocol-real-label` to mark any additional label strings as real.
+
+If your JSON is stored as `<dataset_name>.json` in a folder, you can point to the folder instead:
+```bash
+python scripts/tools/image_dataset_check.py \
+  --data-dir /Users/wuyuchen/deepfake_video_detection/DF40 \
+  --protocol-json-folder /path/to/jsons \
+  --protocol-dataset-name FSAll_ff \
+  --protocol-split train \
+  --protocol-compression c23
+```
+
+For cluster/local path differences, you can rewrite roots (useful when JSON paths are absolute):
+```bash
+python scripts/tools/image_dataset_check.py \
+  --data-dir /Users/wuyuchen/deepfake_video_detection/DF40 \
+  --protocol-json /path/to/protocol.json \
+  --protocol-path-rewrite /Users/wuyuchen/deepfake_video_detection->/data/df \
+  --protocol-path-rewrite /Youtu_Pangu_Security_Public->/Youtu_Pangu_Security/public
+```
+
+If the JSON labels don't contain the word "real", provide an explicit label map:
+```bash
+python scripts/tools/image_dataset_check.py \
+  --data-dir /Users/wuyuchen/deepfake_video_detection/DF40 \
+  --protocol-json /path/to/protocol.json \
+  --protocol-label-map FSAll_Real=0 \
+  --protocol-label-map FSAll_Fake=1
+```
+
 
 ## 🔧Dataset Pre-processing
 ### Generic Pre-processing
