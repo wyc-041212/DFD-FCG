@@ -1,0 +1,299 @@
+Job Start on Node: gpu22
+Directory /tmp/f2256768/df40 missing or empty (likely cleaned by system).
+Calling download script: download_from_gdrive.sh ...
+Start downloading
+------------------------------------------------
+Downloading: train/DiT.zip
+Unzipping to: train/DiT
+Deleting zip: DiT.zip
+------------------------------------------------
+Downloading: train/MRAA.zip
+Unzipping to: train/MRAA
+Deleting zip: MRAA.zip
+------------------------------------------------
+Downloading: train/RDDM.zip
+Unzipping to: train/RDDM
+Deleting zip: RDDM.zip
+------------------------------------------------
+Downloading: train/SiT.zip
+Unzipping to: train/SiT
+Deleting zip: SiT.zip
+------------------------------------------------
+Downloading: train/StyleGAN2.zip
+Unzipping to: train/StyleGAN2
+Deleting zip: StyleGAN2.zip
+------------------------------------------------
+Downloading: train/StyleGAN3.zip
+Unzipping to: train/StyleGAN3
+Deleting zip: StyleGAN3.zip
+------------------------------------------------
+Downloading: train/StyleGANXL.zip
+Unzipping to: train/StyleGANXL
+Deleting zip: StyleGANXL.zip
+------------------------------------------------
+Downloading: train/VQGAN.zip
+Unzipping to: train/VQGAN
+Deleting zip: VQGAN.zip
+------------------------------------------------
+Downloading: train/blendface.zip
+Unzipping to: train/blendface
+Deleting zip: blendface.zip
+------------------------------------------------
+Downloading: train/danet.zip
+Unzipping to: train/danet
+Deleting zip: danet.zip
+------------------------------------------------
+Downloading: train/ddim.zip
+Unzipping to: train/ddim
+Deleting zip: ddim.zip
+------------------------------------------------
+Downloading: train/e4s.zip
+Unzipping to: train/e4s
+Deleting zip: e4s.zip
+------------------------------------------------
+Downloading: train/facedancer.zip
+Unzipping to: train/facedancer
+Deleting zip: facedancer.zip
+------------------------------------------------
+Downloading: train/faceswap.zip
+Unzipping to: train/faceswap
+Deleting zip: faceswap.zip
+------------------------------------------------
+Downloading: train/facevid2vid.zip
+Unzipping to: train/facevid2vid
+Deleting zip: facevid2vid.zip
+------------------------------------------------
+Downloading: train/fomm.zip
+Unzipping to: train/fomm
+Deleting zip: fomm.zip
+------------------------------------------------
+Downloading: train/fsgan.zip
+Unzipping to: train/fsgan
+Deleting zip: fsgan.zip
+------------------------------------------------
+Downloading: train/hyperreenact.zip
+Unzipping to: train/hyperreenact
+Deleting zip: hyperreenact.zip
+------------------------------------------------
+Downloading: train/inswap.zip
+Unzipping to: train/inswap
+Deleting zip: inswap.zip
+------------------------------------------------
+Downloading: train/lia.zip
+Unzipping to: train/lia
+Deleting zip: lia.zip
+------------------------------------------------
+Downloading: train/mcnet.zip
+Unzipping to: train/mcnet
+Deleting zip: mcnet.zip
+------------------------------------------------
+Downloading: train/mobileswap.zip
+Unzipping to: train/mobileswap
+Deleting zip: mobileswap.zip
+------------------------------------------------
+Downloading: train/one_shot_free.zip
+Unzipping to: train/one_shot_free
+Deleting zip: one_shot_free.zip
+------------------------------------------------
+Downloading: train/pirender.zip
+Unzipping to: train/pirender
+Deleting zip: pirender.zip
+------------------------------------------------
+Downloading: train/pixart.zip
+Unzipping to: train/pixart
+Deleting zip: pixart.zip
+------------------------------------------------
+Downloading: train/sadtalker.zip
+Unzipping to: train/sadtalker
+Deleting zip: sadtalker.zip
+------------------------------------------------
+Downloading: train/sd2.1.zip
+Unzipping to: train/sd2.1
+Deleting zip: sd2.1.zip
+------------------------------------------------
+Downloading: train/simswap.zip
+Unzipping to: train/simswap
+Deleting zip: simswap.zip
+------------------------------------------------
+Downloading: train/tpsm.zip
+Unzipping to: train/tpsm
+Deleting zip: tpsm.zip
+------------------------------------------------
+Downloading: train/uniface.zip
+Unzipping to: train/uniface
+Deleting zip: uniface.zip
+------------------------------------------------
+Downloading: train/wav2lip.zip
+Unzipping to: train/wav2lip
+Deleting zip: wav2lip.zip
+------------------------------------------------
+Downloading: test/CollabDiff.zip
+Unzipping to: test/CollabDiff
+Deleting zip: CollabDiff.zip
+------------------------------------------------
+Downloading: test/DiT.zip
+Unzipping to: test/DiT
+Deleting zip: DiT.zip
+------------------------------------------------
+Downloading: test/MRAA.zip
+Unzipping to: test/MRAA
+Deleting zip: MRAA.zip
+------------------------------------------------
+Downloading: test/MidJourney.zip
+Unzipping to: test/MidJourney
+Deleting zip: MidJourney.zip
+------------------------------------------------
+Downloading: test/RDDM.zip
+Unzipping to: test/RDDM
+Deleting zip: RDDM.zip
+------------------------------------------------
+Downloading: test/SiT.zip
+Unzipping to: test/SiT
+Deleting zip: SiT.zip
+------------------------------------------------
+Downloading: test/StyleGAN2.zip
+Unzipping to: test/StyleGAN2
+Deleting zip: StyleGAN2.zip
+------------------------------------------------
+Downloading: test/StyleGAN3.zip
+Unzipping to: test/StyleGAN3
+Deleting zip: StyleGAN3.zip
+------------------------------------------------
+Downloading: test/StyleGANXL.zip
+Unzipping to: test/StyleGANXL
+Deleting zip: StyleGANXL.zip
+------------------------------------------------
+Downloading: test/VQGAN.zip
+Unzipping to: test/VQGAN
+Deleting zip: VQGAN.zip
+------------------------------------------------
+Downloading: test/blendface.zip
+Unzipping to: test/blendface
+Deleting zip: blendface.zip
+------------------------------------------------
+Downloading: test/danet.zip
+Unzipping to: test/danet
+Deleting zip: danet.zip
+------------------------------------------------
+Downloading: test/ddim.zip
+Unzipping to: test/ddim
+Deleting zip: ddim.zip
+------------------------------------------------
+Downloading: test/deepfacelab.zip
+Unzipping to: test/deepfacelab
+Deleting zip: deepfacelab.zip
+------------------------------------------------
+Downloading: test/e4e.zip
+Unzipping to: test/e4e
+Deleting zip: e4e.zip
+------------------------------------------------
+Downloading: test/e4s.zip
+Unzipping to: test/e4s
+Deleting zip: e4s.zip
+------------------------------------------------
+Downloading: test/facedancer.zip
+Unzipping to: test/facedancer
+Deleting zip: facedancer.zip
+------------------------------------------------
+Downloading: test/faceswap.zip
+Unzipping to: test/faceswap
+Deleting zip: faceswap.zip
+------------------------------------------------
+Downloading: test/facevid2vid.zip
+Unzipping to: test/facevid2vid
+Deleting zip: facevid2vid.zip
+------------------------------------------------
+Downloading: test/fomm.zip
+Unzipping to: test/fomm
+Deleting zip: fomm.zip
+------------------------------------------------
+Downloading: test/fsgan.zip
+Unzipping to: test/fsgan
+Deleting zip: fsgan.zip
+------------------------------------------------
+Downloading: test/heygen.zip
+Unzipping to: test/heygen
+Deleting zip: heygen.zip
+------------------------------------------------
+Downloading: test/hyperreenact.zip
+Unzipping to: test/hyperreenact
+Deleting zip: hyperreenact.zip
+------------------------------------------------
+Downloading: test/inswap.zip
+Unzipping to: test/inswap
+Deleting zip: inswap.zip
+------------------------------------------------
+Downloading: test/lia.zip
+Unzipping to: test/lia
+Deleting zip: lia.zip
+------------------------------------------------
+Downloading: test/mcnet.zip
+Unzipping to: test/mcnet
+Deleting zip: mcnet.zip
+------------------------------------------------
+Downloading: test/mobileswap.zip
+Unzipping to: test/mobileswap
+Deleting zip: mobileswap.zip
+------------------------------------------------
+Downloading: test/one_shot_free.zip
+Unzipping to: test/one_shot_free
+Deleting zip: one_shot_free.zip
+------------------------------------------------
+Downloading: test/pirender.zip
+Unzipping to: test/pirender
+Deleting zip: pirender.zip
+------------------------------------------------
+Downloading: test/pixart.zip
+Unzipping to: test/pixart
+Deleting zip: pixart.zip
+------------------------------------------------
+Downloading: test/sadtalker.zip
+Unzipping to: test/sadtalker
+Deleting zip: sadtalker.zip
+------------------------------------------------
+Downloading: test/sd2.1.zip
+Unzipping to: test/sd2.1
+Deleting zip: sd2.1.zip
+------------------------------------------------
+Downloading: test/simswap.zip
+Unzipping to: test/simswap
+Deleting zip: simswap.zip
+------------------------------------------------
+Downloading: test/stargan.zip
+Unzipping to: test/stargan
+Deleting zip: stargan.zip
+------------------------------------------------
+Downloading: test/starganv2.zip
+Unzipping to: test/starganv2
+Deleting zip: starganv2.zip
+------------------------------------------------
+Downloading: test/styleclip.zip
+Unzipping to: test/styleclip
+Deleting zip: styleclip.zip
+------------------------------------------------
+Downloading: test/tpsm.zip
+Unzipping to: test/tpsm
+Deleting zip: tpsm.zip
+------------------------------------------------
+Downloading: test/uniface.zip
+Unzipping to: test/uniface
+Deleting zip: uniface.zip
+------------------------------------------------
+Downloading: test/wav2lip.zip
+Unzipping to: test/wav2lip
+Deleting zip: wav2lip.zip
+------------------------------------------------
+Downloading: test/whichfaceisreal.zip
+Unzipping to: test/whichfaceisreal
+Deleting zip: whichfaceisreal.zip
+------------------------------------------------
+Downloading: Celeb-DF-v2
+------------------------------------------------
+Downloading: FaceForensics++
+------------------------------------------------
+All downloads finished
+Space Usage:
+180G	.
+------------------------------------------------
+Starting DFD-FCG DF40 training...
+Job Finished

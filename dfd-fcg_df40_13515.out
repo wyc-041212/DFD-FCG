@@ -1,0 +1,16 @@
+Job Start on Node: gpu22
+Directory /tmp/f2256768/df40 detected and not empty.
+Skipping download, utilizing existing data.
+------------------------------------------------
+Starting DFD-FCG DF40 training...
+┏━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃   ┃ Name  ┃ Type                   ┃ Params ┃
+┡━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ 0 │ model │ BinaryLinearClassifier │  303 M │
+└───┴───────┴────────────────────────┴────────┘
+Trainable params: 135 K                                                         
+Non-trainable params: 303 M                                                     
+Total params: 303 M                                                             
+Total estimated model params size (MB): 1.2 K                                   
+Epoch 0/29 ━━━━━━━━━━━━━━━━━━ 13786/13786 1:03:14 • 0:00:00 3.64it/s v_num: eu3p
+Job Finished

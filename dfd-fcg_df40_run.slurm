@@ -2,12 +2,11 @@
 #SBATCH --job-name=dfd-fcg_df40
 #SBATCH --output=dfd-fcg_df40_%j.out
 #SBATCH --error=dfd-fcg_df40_%j.err
-#SBATCH --partition=short
-#SBATCH --nodelist=gpu20         # Force execution on node gpu20
+#SBATCH --partition=long
+#SBATCH --nodelist=gpu22         # Force execution on node gpu20
 #SBATCH --gres=gpu:1             # Request 1 GPU
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=48G
-#SBATCH --time=24:00:00
 
 # --- Configuration ---
 TARGET_TMP_DIR="/tmp/f2256768"
@@ -22,6 +21,10 @@ PROTOCOL_COMPRESSION="c23"
 
 echo "Job Start on Node: $(hostname)"
 source /usr/local/anaconda/3-2024.06/bin/activate dfd-fcg
+export PYTHONIOENCODING=utf-8
+
+export WANDB_API_KEY="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"
+export WANDB_ENTITY="1160885822-hong-kong-baptist-university"
 
 # --- 1. Smart Check: Is data persisted? ---
 if [ -d "$DATA_ROOT" ] && [ "$(ls -A $DATA_ROOT)" ]; then
@@ -53,17 +56,18 @@ python -m main \
   --config configs/clip/L14/ffg.yaml \
   --config configs/data_df40.yaml \
   --trainer.devices=1 \
-  --data.init_args.train_datamodules.0.init_args.data_dir="$DATA_ROOT" \
-  --data.init_args.val_datamodules.0.init_args.data_dir="$DATA_ROOT" \
-  --data.init_args.test_datamodules.0.init_args.data_dir="$DATA_ROOT" \
-  --data.init_args.train_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
-  --data.init_args.val_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
-  --data.init_args.test_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
-  --data.init_args.train_datamodules.0.init_args.protocol_dataset_name="$TRAIN_PROTOCOL" \
-  --data.init_args.val_datamodules.0.init_args.protocol_dataset_name="$TEST_PROTOCOL" \
-  --data.init_args.test_datamodules.0.init_args.protocol_dataset_name="$TEST_PROTOCOL" \
-  --data.init_args.train_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION" \
-  --data.init_args.val_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION" \
-  --data.init_args.test_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION"
+  --ckpt_path /home/comp/f2256768/DFD-FCG/logs/DFD-FCG/6513d8zl/checkpoints/last.ckpt
+#   --data.init_args.train_datamodules.0.init_args.data_dir="$DATA_ROOT" \
+#   --data.init_args.val_datamodules.0.init_args.data_dir="$DATA_ROOT" \
+#   --data.init_args.test_datamodules.0.init_args.data_dir="$DATA_ROOT" \
+#   --data.init_args.train_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
+#   --data.init_args.val_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
+#   --data.init_args.test_datamodules.0.init_args.protocol_json_folder="$JSON_ROOT" \
+#   --data.init_args.train_datamodules.0.init_args.protocol_dataset_name="$TRAIN_PROTOCOL" \
+#   --data.init_args.val_datamodules.0.init_args.protocol_dataset_name="$TEST_PROTOCOL" \
+#   --data.init_args.test_datamodules.0.init_args.protocol_dataset_name="$TEST_PROTOCOL" \
+#   --data.init_args.train_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION" \
+#   --data.init_args.val_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION" \
+#   --data.init_args.test_datamodules.0.init_args.protocol_compression="$PROTOCOL_COMPRESSION"
 
 echo "Job Finished"

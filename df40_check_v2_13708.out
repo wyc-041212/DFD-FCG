@@ -1,0 +1,745 @@
+BASE = /tmp/f2256768/df40/deepfakes_detection_datasets/DF40
+Host = gpu22
+Time = Fri Jan 30 13:18:50 HKT 2026
+
+==== Top-level listing (du -sh, largest 60) ====
+41M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/stargan
+46M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/starganv2
+252M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/styleclip
+342M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff
+389M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/deepfacelab
+794M	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/whichfaceisreal
+1.1G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4s
+1.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MidJourney
+1.5G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/inswap
+1.7G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/danet
+1.7G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facevid2vid
+1.7G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fomm
+1.7G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mcnet
+1.7G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/one_shot_free
+1.8G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MRAA
+1.8G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pirender
+1.9G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/hyperreenact
+1.9G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/tpsm
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facedancer
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/faceswap
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fsgan
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/lia
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sadtalker
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3
+2.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL
+2.1G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/blendface
+2.1G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2
+2.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT
+2.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/simswap
+2.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT
+2.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/uniface
+2.2G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/wav2lip
+2.3G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN
+2.6G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/heygen
+2.6G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM
+2.8G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim
+5.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4e
+6.0G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mobileswap
+15G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1
+19G	/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart
+
+==== Per-folder checks (per-kind sample 20) ====
+------------------------------------------------------------
+[blendface]  2026-01-30 13:18:52
+Size: 2.1G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/blendface/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/blendface/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/blendface/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/blendface/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[e4s]  2026-01-30 13:18:52
+Size: 1.1G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4s/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4s/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4s/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4s/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[hyperreenact]  2026-01-30 13:18:52
+Size: 1.9G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/hyperreenact/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/hyperreenact/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/hyperreenact/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/hyperreenact/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[one_shot_free]  2026-01-30 13:18:52
+Size: 1.7G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/one_shot_free/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/one_shot_free/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/one_shot_free/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/one_shot_free/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[SiT]  2026-01-30 13:18:52
+Size: 2.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/SiT/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[tpsm]  2026-01-30 13:18:53
+Size: 1.9G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/tpsm/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/tpsm/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/tpsm/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/tpsm/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[CollabDiff]  2026-01-30 13:18:53
+Size: 342M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/0
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/1
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/10
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/100
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/101
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/103
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/104
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/105
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/106
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/107
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/108
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/109
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/11
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/110
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/111
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/112
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/113
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/CollabDiff/fake/115
+    ... (showing up to 20)
+  - real:
+    ... (showing up to 20)
+------------------------------------------------------------
+[facedancer]  2026-01-30 13:18:53
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facedancer/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facedancer/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facedancer/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facedancer/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[inswap]  2026-01-30 13:18:53
+Size: 1.5G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/inswap/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/inswap/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/inswap/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/inswap/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[pirender]  2026-01-30 13:18:53
+Size: 1.8G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pirender/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pirender/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pirender/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pirender/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[stargan]  2026-01-30 13:18:53
+Size: 41M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/stargan/fake/fake
+    ... (showing up to 20)
+  - real:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/stargan/real/real
+    ... (showing up to 20)
+------------------------------------------------------------
+[uniface]  2026-01-30 13:18:53
+Size: 2.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/uniface/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/uniface/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/uniface/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/uniface/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[danet]  2026-01-30 13:18:53
+Size: 1.7G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/danet/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/danet/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/danet/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/danet/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[faceswap]  2026-01-30 13:18:53
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/faceswap/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/faceswap/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/faceswap/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/faceswap/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[lia]  2026-01-30 13:18:53
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/lia/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/lia/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/lia/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/lia/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[pixart]  2026-01-30 13:18:53
+Size: 19G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/pixart/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[starganv2]  2026-01-30 13:18:53
+Size: 46M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    ... (showing up to 20)
+  - real:
+    ... (showing up to 20)
+------------------------------------------------------------
+[VQGAN]  2026-01-30 13:18:53
+Size: 2.3G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/VQGAN/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[ddim]  2026-01-30 13:18:53
+Size: 2.8G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/ddim/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[facevid2vid]  2026-01-30 13:18:54
+Size: 1.7G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facevid2vid/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facevid2vid/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facevid2vid/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/facevid2vid/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[mcnet]  2026-01-30 13:18:54
+Size: 1.7G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mcnet/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mcnet/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mcnet/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mcnet/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[RDDM]  2026-01-30 13:18:54
+Size: 2.6G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/RDDM/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[styleclip]  2026-01-30 13:18:54
+Size: 252M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    ... (showing up to 20)
+  - __MACOSX:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/styleclip/__MACOSX/styleclip
+    ... (showing up to 20)
+  - real:
+    ... (showing up to 20)
+------------------------------------------------------------
+[wav2lip]  2026-01-30 13:18:54
+Size: 2.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/wav2lip/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/wav2lip/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/wav2lip/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/wav2lip/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[deepfacelab]  2026-01-30 13:18:54
+Size: 389M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/deepfacelab/fake/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/deepfacelab/fake/landmarks
+    ... (showing up to 20)
+  - real:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/deepfacelab/real/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/deepfacelab/real/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[fomm]  2026-01-30 13:18:54
+Size: 1.7G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fomm/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fomm/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fomm/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fomm/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[MidJourney]  2026-01-30 13:18:54
+Size: 1.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    ... (showing up to 20)
+  - real:
+    ... (showing up to 20)
+------------------------------------------------------------
+[sadtalker]  2026-01-30 13:18:54
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sadtalker/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sadtalker/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sadtalker/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sadtalker/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[StyleGAN2]  2026-01-30 13:18:54
+Size: 2.1G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN2/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[whichfaceisreal]  2026-01-30 13:18:54
+Size: 794M
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - fake:
+    ... (showing up to 20)
+  - __MACOSX:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/whichfaceisreal/__MACOSX/whichfaceisreal
+    ... (showing up to 20)
+  - real:
+    ... (showing up to 20)
+------------------------------------------------------------
+[DiT]  2026-01-30 13:18:54
+Size: 2.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/DiT/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[fsgan]  2026-01-30 13:18:54
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fsgan/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fsgan/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fsgan/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/fsgan/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[mobileswap]  2026-01-30 13:18:54
+Size: 6.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mobileswap/cdf/Youtu_Pangu_Security
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mobileswap/ff/Youtu_Pangu_Security
+    ... (showing up to 20)
+------------------------------------------------------------
+[sd2.1]  2026-01-30 13:18:54
+Size: 15G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/cdf/Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/cdf/YouTube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/001
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/002
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/004
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/005
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/006
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/007
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/008
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/009
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/010
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/011
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/013
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/014
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/016
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/017
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/018
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/sd2.1/ff/019
+    ... (showing up to 20)
+------------------------------------------------------------
+[StyleGAN3]  2026-01-30 13:18:55
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGAN3/ff/141
+    ... (showing up to 20)
+------------------------------------------------------------
+[e4e]  2026-01-30 13:18:55
+Size: 5.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - e4e:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/e4e/e4e/e4e
+    ... (showing up to 20)
+------------------------------------------------------------
+[heygen]  2026-01-30 13:18:55
+Size: 2.6G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - heygen_new:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/heygen/heygen_new/fake
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/heygen/heygen_new/real
+    ... (showing up to 20)
+------------------------------------------------------------
+[MRAA]  2026-01-30 13:18:55
+Size: 1.8G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MRAA/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MRAA/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MRAA/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/MRAA/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[simswap]  2026-01-30 13:18:55
+Size: 2.2G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/simswap/cdf/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/simswap/cdf/landmarks
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/simswap/ff/frames
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/simswap/ff/landmarks
+    ... (showing up to 20)
+------------------------------------------------------------
+[StyleGANXL]  2026-01-30 13:18:55
+Size: 2.0G
+Non-empty: yes
+Structure sample (per kind, show <=20 children each):
+  - cdf:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/cdf/Fake_from_Celeb-real
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/cdf/Fake_from_Youtube-real
+    ... (showing up to 20)
+  - ff:
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/000
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/003
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/012
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/015
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/024
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/026
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/029
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/035
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/036
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/044
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/047
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/048
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/073
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/078
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/102
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/114
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/128
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/135
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/138
+    /tmp/f2256768/df40/deepfakes_detection_datasets/DF40/StyleGANXL/ff/141
+    ... (showing up to 20)
+
+==== Summary ====
+No obvious issues detected (missing/empty/no-kind).
+
+Done. Time = Fri Jan 30 13:18:55 HKT 2026

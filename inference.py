@@ -94,9 +94,15 @@ def inference_driver(cli, cfg_dir, ckpt_path, notes=None):
             dataloaders=[dataloader]
         )
 
-        gathered_results = [None] * torch.distributed.get_world_size()
-        torch.distributed.all_gather_object(gathered_results, batch_results)
-        torch.distributed.barrier()
+        # gathered_results = [None] * torch.distributed.get_world_size()
+        # torch.distributed.all_gather_object(gathered_results, batch_results)
+        # torch.distributed.barrier()
+        if torch.distributed.is_available() and torch.distributed.is_initialized():
+            gathered_results = [None] * torch.distributed.get_world_size()
+            torch.distributed.all_gather_object(gathered_results, batch_results)
+            torch.distributed.barrier()
+        else:
+            gathered_results = [batch_results]
 
         if (trainer.is_global_zero):
             # fetch predict results and aggregate.

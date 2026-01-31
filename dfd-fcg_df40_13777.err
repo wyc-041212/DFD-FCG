@@ -1,0 +1,61 @@
+[rank: 0] Seed set to 1019
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+wandb: Currently logged in as: 1160885822 (1160885822-hong-kong-baptist-university). Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.24.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.3
+wandb: Run data is saved locally in ./logs/wandb/run-20260130_171519-oefsrst3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run gentle-bush-9
+wandb: ⭐️ View project at https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG
+wandb: 🚀 View run at https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG/runs/oefsrst3
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Restoring states from the checkpoint path at /home/comp/f2256768/DFD-FCG/logs/DFD-FCG/6513d8zl/checkpoints/last.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Restored all states from the checkpoint at /home/comp/f2256768/DFD-FCG/logs/DFD-FCG/6513d8zl/checkpoints/last.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[INFO][inference.py:143]: [ImageDF] accuracy: 0.988, roc_auc: 0.998
+wandb: WARNING No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+wandb: - 0.013 MB of 0.013 MB uploadedwandb: \ 0.013 MB of 0.022 MB uploadedwandb: | 0.016 MB of 0.023 MB uploadedwandb: / 0.016 MB of 0.023 MB uploadedwandb: - 0.023 MB of 0.023 MB uploadedwandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:                  epoch ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: infer/ImageDF/accuracy ▁
+wandb:  infer/ImageDF/roc_auc ▁
+wandb:               lr-AdamW ▁
+wandb:     train/ImageDF/loss ▂▂▂▂▂▂▂▂▂▂▁▂▂▃▂▂▁▃▁▂▁▂▂▁▂▁▁▁▂▂▂█▃▁▂▁▂▃▂▃
+wandb: train/ImageDF/syno_sim █▅█▇▅▅▂▅█▄▅▂▄▅▆▃▂▇▂▅▇██▂▄▁▅▇█▅▄▇▄▅▇▄█▅▄▁
+wandb:    trainer/global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:      valid/ImageDF/acc ▁
+wandb:      valid/ImageDF/auc ▁
+wandb:    valid/ImageDF/cm/#0 ▁
+wandb:    valid/ImageDF/cm/#1 ▁
+wandb:    valid/ImageDF/cm/#2 ▁
+wandb:    valid/ImageDF/cm/#3 ▁
+wandb:     valid/ImageDF/loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                  epoch 13
+wandb: infer/ImageDF/accuracy 0.988
+wandb:  infer/ImageDF/roc_auc 0.998
+wandb:               lr-AdamW 0.0001
+wandb:     train/ImageDF/loss 0.01449
+wandb: train/ImageDF/syno_sim 0.02602
+wandb:    trainer/global_step 193003
+wandb:      valid/ImageDF/acc 0.97
+wandb:       valid/ImageDF/ap nan
+wandb:      valid/ImageDF/auc 0.0
+wandb:    valid/ImageDF/cm/#0 0.97
+wandb:    valid/ImageDF/cm/#1 0.03
+wandb:    valid/ImageDF/cm/#2 0.0
+wandb:    valid/ImageDF/cm/#3 0.0
+wandb:     valid/ImageDF/loss 0.2472
+wandb: 
+wandb: 🚀 View run gentle-bush-9 at: https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG/runs/oefsrst3
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./logs/wandb/run-20260130_171519-oefsrst3/logs

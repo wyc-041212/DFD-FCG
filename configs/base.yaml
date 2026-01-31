@@ -41,7 +41,7 @@ trainer:
   reload_dataloaders_every_n_epochs: 0
   default_root_dir: "./logs/"
 early_stop:
-  monitor: "valid/FFPP/auc"
+  monitor: "valid/ImageDF/auc"
   min_delta: 0.0
   patience: 10
   verbose: false
@@ -55,7 +55,7 @@ early_stop:
 checkpoint:
   dirpath: null
   filename: null
-  monitor: "valid/FFPP/auc"
+  monitor: "valid/ImageDF/auc"
   verbose: false
   save_last: true
   save_top_k: 1

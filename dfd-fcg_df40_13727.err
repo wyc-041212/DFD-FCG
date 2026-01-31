@@ -1,0 +1,118 @@
+[rank: 0] Seed set to 1019
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+wandb: Currently logged in as: 1160885822 (1160885822-hong-kong-baptist-university). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.24.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.3
+wandb: Run data is saved locally in ./logs/wandb/run-20260130_134000-yv0e82m8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run golden-leaf-6
+wandb: ⭐️ View project at https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG
+wandb: 🚀 View run at https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG/runs/yv0e82m8
+wandb: WARNING Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Restoring states from the checkpoint path at /home/comp/f2256768/DFD-FCG/logs/DFD-FCG/ahluk2zv/checkpoints/last.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Restored all states from the checkpoint at /home/comp/f2256768/DFD-FCG/logs/DFD-FCG/ahluk2zv/checkpoints/last.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+wandb: WARNING No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+wandb: - 0.013 MB of 0.013 MB uploadedwandb: \ 0.013 MB of 0.027 MB uploadedwandb: | 0.027 MB of 0.027 MB uploadedwandb: / 0.027 MB of 0.027 MB uploadedwandb: 
+wandb: Run history:
+wandb:                  epoch ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:               lr-AdamW ▁
+wandb:     train/ImageDF/loss ▂▂▁▂▄▂▂▃▂▂▃▂▂█▂▂▄▃▄▂▃▂▂▁▂▂▂▂▂▂▃▁▂▂▂▂▂▁▃▂
+wandb: train/ImageDF/syno_sim ▇▄▃▄▆▅▁▃▂▄▅▆▄█▄▂▄█▆▄▇▅▄▃▁▅▄▂▅▂▅▃▄▃▄▁▃▃▃▅
+wandb:    trainer/global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:      valid/ImageDF/acc ▁
+wandb:      valid/ImageDF/auc ▁
+wandb:    valid/ImageDF/cm/#0 ▁
+wandb:    valid/ImageDF/cm/#1 ▁
+wandb:    valid/ImageDF/cm/#2 ▁
+wandb:    valid/ImageDF/cm/#3 ▁
+wandb:     valid/ImageDF/loss ▁
+wandb: 
+wandb: Run summary:
+wandb:                  epoch 11
+wandb:               lr-AdamW 0.0001
+wandb:     train/ImageDF/loss 0.01445
+wandb: train/ImageDF/syno_sim 0.02603
+wandb:    trainer/global_step 165431
+wandb:      valid/ImageDF/acc 0.975
+wandb:       valid/ImageDF/ap nan
+wandb:      valid/ImageDF/auc 0.0
+wandb:    valid/ImageDF/cm/#0 0.975
+wandb:    valid/ImageDF/cm/#1 0.025
+wandb:    valid/ImageDF/cm/#2 0.0
+wandb:    valid/ImageDF/cm/#3 0.0
+wandb:     valid/ImageDF/loss 0.24585
+wandb: 
+wandb: 🚀 View run golden-leaf-6 at: https://wandb.ai/1160885822-hong-kong-baptist-university/DFD-FCG/runs/yv0e82m8
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./logs/wandb/run-20260130_134000-yv0e82m8/logs
+Traceback (most recent call last):
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/comp/f2256768/DFD-FCG/main.py", line 123, in <module>
+    cli_main()
+  File "/home/comp/f2256768/DFD-FCG/main.py", line 116, in cli_main
+    scores = inference(cli=cli)
+  File "/home/comp/f2256768/DFD-FCG/main.py", line 47, in inference
+    results = inference_driver(
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/comp/f2256768/DFD-FCG/inference.py", line 92, in inference_driver
+    batch_results = trainer.predict(
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/trainer/trainer.py", line 863, in predict
+    return call._call_and_handle_interrupt(
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/trainer/call.py", line 44, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/trainer/trainer.py", line 902, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/trainer/trainer.py", line 986, in _run
+    results = self._run_stage()
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/trainer/trainer.py", line 1027, in _run_stage
+    return self.predict_loop.run()
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/loops/utilities.py", line 182, in _decorator
+    return loop_run(self, *args, **kwargs)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/loops/prediction_loop.py", line 121, in run
+    batch, batch_idx, dataloader_idx = next(data_fetcher)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/loops/fetchers.py", line 133, in __next__
+    batch = super().__next__()
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/loops/fetchers.py", line 60, in __next__
+    batch = next(self.iterator)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/utilities/combined_loader.py", line 341, in __next__
+    out = next(self._iterator)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/lightning/pytorch/utilities/combined_loader.py", line 142, in __next__
+    out = next(self.iterators[0])
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1346, in _next_data
+    return self._process_data(data)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1372, in _process_data
+    data.reraise()
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/_utils.py", line 722, in reraise
+    raise exception
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 4.
+Original Traceback (most recent call last):
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/comp/f2256768/DFD-FCG/src/dataset/image.py", line 207, in __getitem__
+    item_entities = self.get_item(idx)
+  File "/home/comp/f2256768/DFD-FCG/src/dataset/image.py", line 212, in get_item
+    self.get_entity(
+  File "/home/comp/f2256768/DFD-FCG/src/dataset/image.py", line 222, in get_entity
+    image = Image.open(img_path).convert("RGB")
+  File "/home/comp/f2256768/.conda/envs/dfd-fcg/lib/python3.8/site-packages/PIL/Image.py", line 3309, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file '/tmp/f2256768/df40/deepfakes_detection_datasets/DF40/mobileswap/ff/frames/681_711/649.png'
+

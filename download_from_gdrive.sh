@@ -9,7 +9,7 @@ SAVE_DIR="/tmp/f2256768/df40"
 mkdir -p "$SAVE_DIR"
 
 # Train/Test splits (zip list will be discovered automatically)
-SPLITS=("train" "test")
+SPLITS=("DF40_train" "DF40")
 
 # Other items directly under BASE_PATH (non-zip)
 OTHER_ITEMS=(
@@ -45,6 +45,15 @@ for SPLIT in "${SPLITS[@]}"; do
         echo "Unzipping to: $TARGET_DIR"
         mkdir -p "${SPLIT}"
         unzip -q "${TEMP_DIR}/${ZIP_NAME}" -d "$TARGET_DIR"
+
+        # If the zip already contains a top-level folder with the same name, flatten it
+        if [ -d "${TARGET_DIR}/${DIR_NAME}" ]; then
+          echo "Flattening nested dir: ${TARGET_DIR}/${DIR_NAME}"
+          shopt -s dotglob
+          mv "${TARGET_DIR}/${DIR_NAME}"/* "$TARGET_DIR"/
+          rmdir "${TARGET_DIR}/${DIR_NAME}"
+          shopt -u dotglob
+        fi
 
         echo "Deleting zip: $ZIP_NAME"
         rm "${TEMP_DIR}/${ZIP_NAME}"
